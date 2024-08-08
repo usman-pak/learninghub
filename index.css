@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(60, 60, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar Style */
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+header ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+header ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(61, 61, 233), rgb(51, 48, 48));
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+header ul li ul.dropdown li {
+    display: block;
+}
+
+header ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+header ul li a:hover {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+header ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* H1 Style */
+
+h1 {
+    position: static;
+    margin: 100px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0px 10px 50px;
+    color: rgb(0, 238, 255);
+}
+
+/* Section 1 Style */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.section1 h2 {
+    color: rgb(116, 255, 255);
+    text-align: center;
+}
+
+.section1 li {
+    color: rgb(97, 169, 218);
+}
+
+.section1 a {
+    color: rgb(218, 97, 97);
+}
+
+div {
+    border: 5px double rgb(31, 97, 91);
+    border-radius: 10px 50px;
+    box-shadow: 5px 5px 20px;
+    background-color: rgba(0, 0, 255, 0.082);
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+}
+
+.section2 {
+    border: 5px double rgb(31, 97, 91);
+    border-radius: 50px 50px;
+    box-shadow: 5px 5px 20px;
+    background-color: rgba(12, 97, 26, 0.082);
+    width: auto;
+    height: auto;
+    margin: 30px auto;
+    line-height: 30px;
+    max-width: 850px;
+
+}
+
+.section2 h2 {
+    color: rgb(15, 218, 133);
+    text-align: center;
+    text-decoration: double;
+}
+
+.section2 li {
+    color: rgb(206, 176, 176);
+}
+
+.section2 span {
+    font-weight: bold;
+    color: rgba(1, 162, 255, 0.959);
+}
+
+footer {
+    text-align: center;
+}
+
+address {
+    border: 5px double rgb(31, 97, 91);
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 20px;
+    background-color: rgba(252, 1, 1, 0.089);
+    width: auto;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    color: rgb(226, 205, 205);
+    line-height: 25px;
+    max-width: 1300px;
+}
+
+address span {
+    font-weight: bold;
+    color: rgba(1, 162, 255, 0.959);
+}
